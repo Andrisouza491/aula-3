@@ -1,0 +1,17 @@
+import React from 'react';
+import ListaDeContatos from './ListaDeContatos';
+import CalculadoraIMC from './CalculadoraIMC';
+
+function App() {
+  return (
+    <div>
+      <h1>Aplicações React</h1>
+      <h2>Lista de Contatos</h2>
+      <ListaDeContatos />
+      <h2>Calculadora de IMC</h2>
+      <CalculadoraIMC peso={70} altura={1.75} />
+    </div>
+  );
+}
+
+export default App;
